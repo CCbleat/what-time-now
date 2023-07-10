@@ -22,9 +22,11 @@ function App() {
   return (
     <div className="App">
       <div className='Time-container'>
-        <div className='Hour-container Time-page'>{hour}</div>
-        <div className='Minute-container Time-page'>{minute}</div>
-        <div className='Second-container Time-page'>{second}</div>
+        <div className='Hour-container Time-page Common-page'>{hour}</div>
+        <div className='Colon-page Common-page'>:</div>
+        <div className='Minute-container Time-page Common-page'>{minute}</div>
+        <div className='Colon-page Common-page'>:</div>
+        <div className='Second-container Time-page Common-page'>{second}</div>
       </div>
     </div>
   );

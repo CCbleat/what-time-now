@@ -5,23 +5,31 @@
 
 .Time-container {
   height: 100vh;
-  padding: 0 18vw;
+  padding: 0 17vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.Time-page {
-  width: 16vw;
+.Common-page {
   height: 36vh;
-  background-color: lightgray;
-  border-radius: 2vw;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   font-size: 12vw;
-  font-style: italic;
   font-weight: bold;
+}
+
+.Time-page {
+  width: 16vw;
+  background-color: lightgray;
+  border-radius: 2vw;
+
+  font-style: italic;
+}
+
+.Colon-page {
+  width: 2vw;
 }
